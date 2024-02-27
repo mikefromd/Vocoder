@@ -57,11 +57,13 @@ If you listen attentively to the synthezised voice, you notice that it is diffic
 
 ### 5. Visualise sound
 
-A [Light Organ](https://en.wikipedia.org/wiki/Light_organ) is a tool to visualise sound with different coloured lights. The sound signal is processed by filters, and different frequency ranges are shown by different lights.
-
-The `svf~` object provides three different filters in one package, you select the filter by choosing one of the four outlets.
-
 ![Light Tone Organ](media/151804.jpg)
+
+A [Light Organ](https://en.wikipedia.org/wiki/Light_organ) is a tool to visualise sound frequencies with different coloured lights. You find them inside discotheques. The sound signal is processed by several filters, arranged in parallel arrangement, each filter output connected to different lights.
+
+The `svf~` object provides three different filters in one package, you select the filter by choosing one of the four outlets. The diagram shows the available options. The patch uses a low pass filter and a high pass filter, the band pass filter for the medium range frequences still needs to be implemented.
+
+![The four basic tyes of filters and how they work](media/2024-02-27_18-25-05.png)
 
 ![Light Organ Basic Patch](media/2024-02-27_14-09-19.png)
 
