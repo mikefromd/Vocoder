@@ -3,6 +3,10 @@
 This session is dedicated to the Vocoder, a device to modify the human voice. Furthermore, we use some patches to visualise sound and customize
 the appearance of MAX/MSP objects with the inspector.
 
+The music bank "Kraftwerk" became popular with their title "The Robots" back in 1978.
+
+![(https://youtu.be/D_8Pma1vHmw?feature=shared)](media/2024-02-27_11-12-03.png)
+
 ### 1. Create one or two recordings with voice
 
 Record two audio clips to get some speech samples, 
@@ -16,8 +20,7 @@ the elements used are still available on the user interface, only their location
 Before you start, you need to set in `Audio Setup` the proper `Recording Device`, your microphone. Also, activate the `Record Meter`
 to see a level meter show the volume. Your voice should be around -6dB, avoiding a red level.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/knL6uKBGyIg?si=72jXXYisA7fn-xv5" title="YouTube video player" 
-  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+[Quick introduction on how to record with Audacity][(https://www.youtube.com/embed/knL6uKBGyIg?si=72jXXYisA7fn-xv5)
   web-share" allowfullscreen></iframe>
 
   At the end do not forget to `Export` your audio clip, either in the .WAV or the .MP3 format.
