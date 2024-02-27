@@ -52,8 +52,10 @@ Launch the main patch **voc2.maxpat**, click on the `open` message, a widget wil
 If you listen attentively to the synthezised voice, you notice that it is difficult to hear your consonants. The new patch vox3.maxpat uses a technique called 
 [Zero Crossing Rate](https://dsp.stackexchange.com/questions/8069/distinguish-vowels-from-consonants) to identify consonants in the speech pattern and modulate those sounds with  a noise. Compare the outcome with that of the previous  one.
 
+![Vocoder with separate treatment of consonants and vowels](media/2024-02-27_12-17-30.png)
 
-### 5. 
+
+### 5. Visualise sound
 
 A [Light Organ](https://en.wikipedia.org/wiki/Light_organ) is a tool to visualise sound with different coloured lights. The sound signal is processed by filters, and different frequency ranges are shown by different lights.
 
