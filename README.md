@@ -43,6 +43,18 @@ Then start the patch and experiment with various settings on the Vocoder module.
 This Vocoder is described [here](https://youtu.be/4feOFLX6238?feature=shared) in more detail. You find it in the folder **Vocoder2**. 
 The project consists out of two patches. The main patch vox2.maxpat contains the main program, it uses a subprogram **voc_pfft.maxpat**,
 subprograms in MAX are called *Abstractions*. 
-Launch the main patch, click on the `open` message, a widget will pop up that allows you to select an audio file. Then click on the toggle to start the patch. You can modulate the recorded voice by playing the kslider (keyboard).
-  
-  Open the patch **voc2.maxpat**, then link your audio file by 
+
+Launch the main patch **voc2.maxpat**, click on the `open` message, a widget will pop up that allows you to select an audio file. Then click on the toggle to start the patch. You can modulate the recorded voice by playing the kslider (keyboard).
+
+
+### 4. A more sophisticated Vocoder vox3.maxpat
+
+If you listen attentively to the synthezised voice, you notice that it is difficult to hear your consonants. The new patch vox3.maxpat uses a technique called 
+[Zero Crossing Rate](https://dsp.stackexchange.com/questions/8069/distinguish-vowels-from-consonants) to identify consonants in the speech pattern and modulate those sounds with  a noise. Compare the outcome with that of the previous  one.
+
+
+### 5. 
+
+A [Light Organ](https://en.wikipedia.org/wiki/Light_organ) is a tool to visualise sound with different coloured lights. The sound signal is processed by filters, and different frequency ranges are shown by different lights.
+
+![Light Tone Organ](media/151804.jpg)
