@@ -3,9 +3,12 @@
 This session is dedicated to the Vocoder, a device to modify the human voice. Furthermore, we use some patches to visualise sound and customize
 the appearance of MAX/MSP objects with the inspector.
 
-The music bank "Kraftwerk" became popular with their title ["The Robots"](https://youtu.be/D_8Pma1vHmw?feature=shared) back in 1978.
+The music band "Kraftwerk" became popular with their title ["The Robots"](https://youtu.be/D_8Pma1vHmw?feature=shared) back in 1978.
 
 ![Kraftwerk, The Robot](media/2024-02-27_11-12-03.png)
+
+Their music relied heavily on Synthezisers and Vocoder to create their unique sound.
+
 
 ### 1. Create one or two recordings with voice
 
