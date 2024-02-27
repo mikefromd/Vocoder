@@ -64,3 +64,10 @@ The `svf~` object provides three different filters in one package, you select th
 ![Light Tone Organ](media/151804.jpg)
 
 ![Light Organ Basic Patch](media/2024-02-27_14-09-19.png)
+
+#### ToDo
+
+1. Add one more block for the mid frequencies, using the band filter outlet. Select the frequency properly in between low pass and high pass frequencies. You may check with a spectroscope~ object.
+2. Customise the button object with a different colour, You can do this by opening the object inspector ((i) icon at the right).
+3. Choose suitable frequencies for the three filters.
+
