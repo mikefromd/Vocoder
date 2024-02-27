@@ -26,23 +26,23 @@ to see a level meter show the volume. Your voice should be around -6dB, avoiding
 [Quick introduction on how to record with Audacity][(https://www.youtube.com/embed/knL6uKBGyIg?si=72jXXYisA7fn-xv5)
   web-share" allowfullscreen></iframe>
 
-  At the end do not forget to `Export` your audio clip, either in the .WAV or the .MP3 format.
+At the end do not forget to `Export` your audio clip, either in the .WAV or the .MP3 format.
 
 
-  ### 2. Launch the patch 240226_VocoderBEAP1.maxpat
+### 2. Launch the patch 240226_VocoderBEAP1.maxpat
 
-  As in previous sessions, download the repository with all contents on your computer, if required extract its files. Then find
-  and laumch the patch **240226_VocoderBEAP1.maxpat**.
-  Drag and drop on of your audio clips on the patch, a `playlist~` object will be created. Patch it as it is shown for the existing player.
+As in previous sessions, download the repository with all contents on your computer, if required extract its files. Then find
+and laumch the patch **240226_VocoderBEAP1.maxpat**.
+Drag and drop on of your audio clips on the patch, a `playlist~` object will be created. Patch it as it is shown for the existing player.
 
-  Then start the patch and experiment with various settings on the Vocoder module.
+Then start the patch and experiment with various settings on the Vocoder module.
 
 
-  ### 3. A descrete Vocoder vox2.maxpat
+### 3. A descrete Vocoder vox2.maxpat
 
-  This Vocoder is described [here](https://youtu.be/4feOFLX6238?feature=shared) in more detail. You find it in the folder **Vocoder2**. 
-  The project consists out of two patches. The main patch vox2.maxpat contains the main program, it uses a subprogram **voc_pfft.maxpat**,
-  subprograms in MAX are called *Abstractions*. 
-  Launch 
+This Vocoder is described [here](https://youtu.be/4feOFLX6238?feature=shared) in more detail. You find it in the folder **Vocoder2**. 
+The project consists out of two patches. The main patch vox2.maxpat contains the main program, it uses a subprogram **voc_pfft.maxpat**,
+subprograms in MAX are called *Abstractions*. 
+Launch the main patch, click on the `open` message, a widget will pop up that allows you to select an audio file. Then click on the toggle to start the patch. You can modulate the recorded voice by playing the kslider (keyboard).
   
   Open the patch **voc2.maxpat**, then link your audio file by 
