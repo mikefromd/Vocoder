@@ -28,6 +28,8 @@ to see a level meter show the volume. Your voice should be around -6dB, avoid a 
 At the end, do not forget to `Export` your audio clip, either in the .WAV or the .MP3 format.
 
 
+**REMINDER** Do not forget to extract the zipped repository file you download from GitHub. Single file patches may still work, but patches containing several patches and the drag and drop of media files will not work on Windows machines! Furthermore, you need to copy the complete folder after extraction to your Desktop so that the patches are working properly!
+
 ### 2. Launch the patch 240226_VocoderBEAP1.maxpat
 
 As in previous sessions, download the repository with all contents on your computer, if required extract its files. Then find
@@ -56,7 +58,7 @@ If you listen attentively to the synthesized voice, you notice that it is diffic
 
 ![Vocoder with separate treatment of consonants and vowels](media/2024-02-27_12-17-30.png)
 
-The two patches belonging to the project have been saved inside MAX as a project. This is a special folder format that contains all files in a compressed format to save memory space and speed up the distribution of content.
+The two patches belonging to the project have been saved inside MAX as a project. This is a special folder format that contains links to the respective patches. So it is important that the patches are at the locations described there. If you copy and paste your folders as described above on your Desktop, you are all set.
 
 
 ### 5. Visualise sound
