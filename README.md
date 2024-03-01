@@ -61,7 +61,7 @@ If you listen attentively to the synthesized voice, you notice that it is diffic
 The two patches belonging to the project have been saved inside MAX as a project. This is a special folder format that contains links to the respective patches. So it is important that the patches are at the locations described there. If you copy and paste your folders as described above on your Desktop, you are all set.
 
 
-### 5. Visualise sound
+### 5. Visualize sound
 
 ![Light Tone Organ](media/151804.jpg)
 
